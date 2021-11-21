@@ -13,7 +13,7 @@ const developmentConfig = {
   },
   devtool,
   output: {
-    filename: 'static/[name].[contenthash].js',
+    filename: 'static/[name].[fullhash].js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
   },
