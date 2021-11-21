@@ -1,0 +1,33 @@
+{
+    "include": [
+      "src/*.ts",
+      "src/*.tsx",
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "compilerOptions": {
+      "outDir": "./dist",
+      "baseUrl": "./src",
+      // disable `any` type
+      "noImplicitAny": true,
+      "module": "esnext",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+    }
+  }
+  
