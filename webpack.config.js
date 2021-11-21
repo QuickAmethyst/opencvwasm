@@ -40,6 +40,7 @@ const developmentConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      publicPath: 'https://quickamethyst.github.io/opencvwasm/dist/',
       template: 'public/index.html',
     }),
   ],
