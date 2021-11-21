@@ -5,7 +5,7 @@ export default function useOpenCV() {
   const cvRef = useRef<Record<string, any>>();
 
   const load = useCallback(async () => {
-    await loadScript('/opencv.js');
+    await loadScript('https://quickamethyst.github.io/opencvwasm/opencv.js');
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     cvRef.current = await window.cv;
