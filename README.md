@@ -1,19 +1,3 @@
-# Setup
-```
-yarn
-```
+# OpenCV Wasm
 
-# Run Test
-```
-yarn test
-```
-
-# Run Dev
-```
-yarn dev
-```
-
-# Build
-```
-yarn build
-```
+POC OpenCV using wasm
